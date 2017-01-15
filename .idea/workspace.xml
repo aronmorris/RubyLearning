@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aec8a59e-6a28-4a86-9823-16f1f2ed14f0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/e To Nth Digit/e_to_nth_digit.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Fibonacci/fibonacci.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/RubyFamiliarizing.iml" afterPath="$PROJECT_DIR$/.idea/RubyFamiliarizing.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pi_to_nth_digit.rb" afterPath="$PROJECT_DIR$/Pi To Nth Digit/pi_to_nth_digit.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,8 +14,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/RubyFamiliarizing@e_to_nth_digit.coverage" NAME="e_to_nth_digit Coverage Results" MODIFIED="1484445482613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/e To Nth Digit" MODULE_NAME="RubyFamiliarizing" />
+    <SUITE FILE_PATH="coverage/RubyFamiliarizing@e_to_nth_digit.coverage" NAME="e_to_nth_digit Coverage Results" MODIFIED="1484447319320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/e To Nth Digit" MODULE_NAME="RubyFamiliarizing" />
     <SUITE FILE_PATH="coverage/RubyFamiliarizing@pi_to_nth_digit.coverage" NAME="pi_to_nth_digit Coverage Results" MODIFIED="1484289342281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RubyFamiliarizing" />
+    <SUITE FILE_PATH="coverage/RubyFamiliarizing@fibonacci.coverage" NAME="fibonacci Coverage Results" MODIFIED="1484459805998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fibonacci" MODULE_NAME="RubyFamiliarizing" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -34,11 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="e_to_nth_digit.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="e_to_nth_digit.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/e To Nth Digit/e_to_nth_digit.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fibonacci.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Fibonacci/fibonacci.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -63,6 +73,7 @@
         <option value="$PROJECT_DIR$/pi_to_n.rb" />
         <option value="$PROJECT_DIR$/pi_to_nth_digit.rb" />
         <option value="$PROJECT_DIR$/e To Nth Digit/e_to_nth_digit.rb" />
+        <option value="$PROJECT_DIR$/Fibonacci/fibonacci.rb" />
       </list>
     </option>
   </component>
@@ -76,7 +87,9 @@
     <option name="width" value="1280" />
     <option name="height" value="1400" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -128,6 +141,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RubyFamiliarizing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RubyFamiliarizing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fibonacci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -147,7 +174,7 @@
       <recent name="D:\Programming\Ruby\RubyFamiliarizing\Pi To Nth Digit" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.e_to_nth_digit">
+  <component name="RunManager" selected="Ruby.fibonacci">
     <configuration default="false" name="pi_to_n" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="RubyFamiliarizing" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -190,6 +217,21 @@
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/e To Nth Digit/e_to_nth_digit.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="fibonacci" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="RubyFamiliarizing" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Fibonacci" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Fibonacci/fibonacci.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
@@ -313,16 +355,18 @@
       <envs />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Ruby.pi_to_n" />
       <item index="1" class="java.lang.String" itemvalue="Ruby.pi_to_nth_digit" />
       <item index="2" class="java.lang.String" itemvalue="Ruby.e_to_nth_digit" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.fibonacci" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.e_to_nth_digit" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.pi_to_nth_digit" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.pi_to_n" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Ruby.fibonacci" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.e_to_nth_digit" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.pi_to_nth_digit" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.pi_to_n" />
       </list>
     </recent_temporary>
   </component>
@@ -337,12 +381,12 @@
       <option name="presentableId" value="Default" />
       <updated>1484277330828</updated>
       <workItem from="1484277332272" duration="5963000" />
-      <workItem from="1484286048456" duration="9071000" />
+      <workItem from="1484286048456" duration="15726000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15034000" />
+    <option name="totallyTimeSpent" value="21689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="1400" extended-state="0" />
@@ -417,6 +461,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fibonacci/fibonacci.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
           <folding />
         </state>
       </provider>
