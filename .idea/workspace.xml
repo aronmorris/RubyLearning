@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aec8a59e-6a28-4a86-9823-16f1f2ed14f0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Next Prime Number/next_prime.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cost Of Tile/cost_of_tile.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/RubyFamiliarizing.iml" afterPath="$PROJECT_DIR$/.idea/RubyFamiliarizing.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -17,6 +17,7 @@
     <SUITE FILE_PATH="coverage/RubyFamiliarizing@e_to_nth_digit.coverage" NAME="e_to_nth_digit Coverage Results" MODIFIED="1484447319320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/e To Nth Digit" MODULE_NAME="RubyFamiliarizing" />
     <SUITE FILE_PATH="coverage/RubyFamiliarizing@pi_to_nth_digit.coverage" NAME="pi_to_nth_digit Coverage Results" MODIFIED="1484289342281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RubyFamiliarizing" />
     <SUITE FILE_PATH="coverage/RubyFamiliarizing@fibonacci.coverage" NAME="fibonacci Coverage Results" MODIFIED="1484459976193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fibonacci" MODULE_NAME="RubyFamiliarizing" />
+    <SUITE FILE_PATH="coverage/RubyFamiliarizing@cost_of_tile.coverage" NAME="cost_of_tile Coverage Results" MODIFIED="1484616112705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cost Of Tile" MODULE_NAME="RubyFamiliarizing" />
     <SUITE FILE_PATH="coverage/RubyFamiliarizing@next_prime.coverage" NAME="next_prime Coverage Results" MODIFIED="1484466994946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Next Prime Number" MODULE_NAME="RubyFamiliarizing" />
     <SUITE FILE_PATH="coverage/RubyFamiliarizing@prime_factorization.coverage" NAME="prime_factorization Coverage Results" MODIFIED="1484465399721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prime Factorization" MODULE_NAME="RubyFamiliarizing" />
   </component>
@@ -29,28 +30,28 @@
       <file leaf-file-name="prime_factorization.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Prime Factorization/prime_factorization.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="136">
+              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="next_prime.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="next_prime.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Next Prime Number/next_prime.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="221">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prime.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Ruby22/lib/ruby/2.2.0/prime.rb">
+      <file leaf-file-name="cost_of_tile.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Cost Of Tile/cost_of_tile.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="279" column="0" lean-forward="false" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -78,6 +79,7 @@
         <option value="$PROJECT_DIR$/Fibonacci/fibonacci.rb" />
         <option value="$PROJECT_DIR$/Prime Factorization/prime_factorization.rb" />
         <option value="$PROJECT_DIR$/Next Prime Number/next_prime.rb" />
+        <option value="$PROJECT_DIR$/Cost Of Tile/cost_of_tile.rb" />
       </list>
     </option>
   </component>
@@ -166,22 +168,7 @@
       <recent name="D:\Programming\Ruby\RubyFamiliarizing\Pi To Nth Digit" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.next_prime">
-    <configuration default="false" name="pi_to_nth_digit" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="RubyFamiliarizing" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="D:\Programming\Ruby\RubyFamiliarizing\Pi To Nth Digit\pi_to_nth_digit.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Ruby.cost_of_tile">
     <configuration default="false" name="e_to_nth_digit" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="RubyFamiliarizing" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -239,6 +226,21 @@
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Next Prime Number/next_prime.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="cost_of_tile" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="RubyFamiliarizing" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Cost Of Tile" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Cost Of Tile/cost_of_tile.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
@@ -363,19 +365,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.pi_to_nth_digit" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.e_to_nth_digit" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.fibonacci" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.prime_factorization" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.next_prime" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.e_to_nth_digit" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.fibonacci" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.prime_factorization" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.next_prime" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.cost_of_tile" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.next_prime" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.prime_factorization" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.fibonacci" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.e_to_nth_digit" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.pi_to_nth_digit" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.cost_of_tile" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.next_prime" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.prime_factorization" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.fibonacci" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.e_to_nth_digit" />
       </list>
     </recent_temporary>
   </component>
@@ -390,18 +392,18 @@
       <option name="presentableId" value="Default" />
       <updated>1484277330828</updated>
       <workItem from="1484277332272" duration="5963000" />
-      <workItem from="1484286048456" duration="21975000" />
+      <workItem from="1484286048456" duration="24044000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27938000" />
+    <option name="totallyTimeSpent" value="30007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1375" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1375" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295796" sideWeight="0.1296875" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -493,24 +495,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Ruby22/lib/ruby/2.2.0/prime.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="279" column="0" lean-forward="false" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Prime Factorization/prime_factorization.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="408">
+          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Next Prime Number/next_prime.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Prime Factorization/prime_factorization.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cost Of Tile/cost_of_tile.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           <folding />
         </state>
       </provider>
