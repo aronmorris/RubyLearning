@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aec8a59e-6a28-4a86-9823-16f1f2ed14f0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mortgage Calculator/mortgage_calculator.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Change Return Calculator/change_return_calculator.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/RubyFamiliarizing.iml" afterPath="$PROJECT_DIR$/.idea/RubyFamiliarizing.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -21,6 +21,7 @@
     <SUITE FILE_PATH="coverage/RubyFamiliarizing@cost_of_tile.coverage" NAME="cost_of_tile Coverage Results" MODIFIED="1484705352987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cost Of Tile" MODULE_NAME="RubyFamiliarizing" />
     <SUITE FILE_PATH="coverage/RubyFamiliarizing@next_prime.coverage" NAME="next_prime Coverage Results" MODIFIED="1484466994946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Next Prime Number" MODULE_NAME="RubyFamiliarizing" />
     <SUITE FILE_PATH="coverage/RubyFamiliarizing@prime_factorization.coverage" NAME="prime_factorization Coverage Results" MODIFIED="1484465399721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prime Factorization" MODULE_NAME="RubyFamiliarizing" />
+    <SUITE FILE_PATH="coverage/RubyFamiliarizing@change_return_calculator.coverage" NAME="change_return_calculator Coverage Results" MODIFIED="1485719000144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Change Return Calculator" MODULE_NAME="RubyFamiliarizing" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -58,11 +59,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mortgage_calculator.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mortgage_calculator.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Mortgage Calculator/mortgage_calculator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="476">
+              <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="change_return_calculator.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Change Return Calculator/change_return_calculator.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -92,6 +103,7 @@
         <option value="$PROJECT_DIR$/Next Prime Number/next_prime.rb" />
         <option value="$PROJECT_DIR$/Cost Of Tile/cost_of_tile.rb" />
         <option value="$PROJECT_DIR$/Mortgage Calculator/mortgage_calculator.rb" />
+        <option value="$PROJECT_DIR$/Change Return Calculator/change_return_calculator.rb" />
       </list>
     </option>
   </component>
@@ -157,7 +169,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Mortgage Calculator" />
+              <option name="myItemId" value="Change Return Calculator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -180,22 +192,7 @@
       <recent name="D:\Programming\Ruby\RubyFamiliarizing\Pi To Nth Digit" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.mortgage_calculator">
-    <configuration default="false" name="fibonacci" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="RubyFamiliarizing" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Fibonacci" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Fibonacci/fibonacci.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Ruby.change_return_calculator">
     <configuration default="false" name="prime_factorization" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="RubyFamiliarizing" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -253,6 +250,21 @@
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Mortgage Calculator/mortgage_calculator.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="change_return_calculator" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="RubyFamiliarizing" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Change Return Calculator" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Change Return Calculator/change_return_calculator.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
@@ -377,19 +389,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.fibonacci" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.prime_factorization" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.next_prime" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.cost_of_tile" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.mortgage_calculator" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.prime_factorization" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.next_prime" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.cost_of_tile" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.mortgage_calculator" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.change_return_calculator" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.mortgage_calculator" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.cost_of_tile" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.next_prime" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.prime_factorization" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.fibonacci" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.change_return_calculator" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.mortgage_calculator" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.cost_of_tile" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.next_prime" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.prime_factorization" />
       </list>
     </recent_temporary>
   </component>
@@ -404,12 +416,12 @@
       <option name="presentableId" value="Default" />
       <updated>1484277330828</updated>
       <workItem from="1484277332272" duration="5963000" />
-      <workItem from="1484286048456" duration="27887000" />
+      <workItem from="1484286048456" duration="42038000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33850000" />
+    <option name="totallyTimeSpent" value="48001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -417,14 +429,14 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1375" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295796" sideWeight="0.13242188" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17042042" sideWeight="0.13515624" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295796" sideWeight="0.86757815" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17042042" sideWeight="0.8648437" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3948949" sideWeight="0.7046875" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3948949" sideWeight="0.70273435" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -448,8 +460,13 @@
           <line>8</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/Change Return Calculator/change_return_calculator.rb</url>
+          <line>31</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -539,8 +556,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Mortgage Calculator/mortgage_calculator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="476">
+          <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Change Return Calculator/change_return_calculator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding />
         </state>
       </provider>
